@@ -4,7 +4,7 @@ h2. Installation
 
 Install via gems:
 
-  sudo gem install rava
+  sudo gem install jimweirich-rava
 
 h2. Usage
 
