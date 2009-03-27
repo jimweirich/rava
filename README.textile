@@ -1,0 +1,40 @@
+h1. Rava -- Ruby for Java Programmers
+
+h2. Installation
+
+Install via gems:
+
+  sudo gem install rava
+
+h2. Usage
+
+  require 'rava'
+
+h3. Creating new objects
+
+Java programmers have a hard time remember that the new method is a
+class method on an object class.  Inteady writing:
+
+   SomeThing.new
+
+Java programmers would much rather use:
+
+   new SomeThing
+
+h3. Using Java CamelCase on Ruby methods
+
+Java programmers are use to using camelcase for all method names.
+This underscore business is so baroque.  Rava allows you to call
+methods using camel case.
+
+In other words, you can do this:
+
+   obj.someMethod
+
+rather than:
+
+   obj.some_method
+
+
+
+
