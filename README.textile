@@ -10,6 +10,19 @@ h2. Usage
 
   require 'rava'
 
+h3. Easy Console I/O
+
+Who can remember *puts* vs. *print* and all the other subtle
+differences in Ruby I/O functions.  Real programmers aren't afraid of
+a little extra typing to get reliable I/O.
+
+In Rava, you can do:
+
+  System.out.println("A Message")
+
+  System.err.println("An Error Message")
+
+
 h3. Creating new objects
 
 Java programmers have a hard time remember that the new method is a
@@ -34,6 +47,10 @@ In other words, you can do this:
 rather than:
 
    obj.some_method
+
+h2. Comming Soon ...
+
+*Sproing* -- A Dependency Injection Framework for Ruby!
 
 
 
