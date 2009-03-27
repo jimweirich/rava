@@ -1,5 +1,12 @@
 h1. Rava -- Ruby for Java Programmers
 
+Switching from Java to Ruby can be a big change for programmers.  The
+Rava library is designed to make that transition easier.
+
+h2. Quote
+
+"I can write Java code in any language" -- Anon
+
 h2. Installation
 
 Install via gems:
@@ -21,7 +28,6 @@ In Rava, you can do:
   System.out.println("A Message")
 
   System.err.println("An Error Message")
-
 
 h3. Creating new objects
 
